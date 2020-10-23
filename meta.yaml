@@ -1,0 +1,16 @@
+package:
+  name: corgat
+  version: 1
+
+source:
+  path: ./CorGAT
+
+build:
+  number: 0
+  
+requirements:
+  build:
+    - perl
+    - mummer
+  run:
+    - perl
